@@ -12,7 +12,6 @@ ecosystems:
 
 provides:
   - typescript-path-alias.configured
-  - typescript-path-alias.alias_symbol
 
 requires:
   - key: project.ecosystem
