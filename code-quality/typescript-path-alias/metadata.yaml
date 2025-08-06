@@ -3,18 +3,9 @@ category: code-quality
 summary: Adds a top level path alias (~) to allow imports from the source's root
 level: project-only
 
-ecosystems:
-  - id: javascript
-    default_variant: default
-    variants:
-      - id: default
-        fix_prompt: fixes/javascript_default.md
-
 provides:
   - typescript-path-alias.configured
 
 requires:
-  - key: project.ecosystem
-    equals: javascript
   - key: project.language
     equals: typescript
