@@ -10,6 +10,9 @@ ecosystems:
       - id: default
         fix_prompt: variants/javascript_default.md
 
-provides: []
+provides:
+  - strict-typescript-config.configured
 
-requires: []
+requires:
+  - key: project.language
+    equals: typescript
