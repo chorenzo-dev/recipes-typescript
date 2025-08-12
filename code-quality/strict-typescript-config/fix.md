@@ -1,8 +1,8 @@
 # Setting up Strict TypeScript Configuration
 
-## TypeScript Configuration
+## Configuration
 
-Update or create `tsconfig.json` file with the strictest possible compiler options. In the compilerOptions section, enable the core strict settings including `"strict": true`, `"noImplicitAny": true`, `"noImplicitReturns": true`, and `"exactOptionalPropertyTypes": true`.
+Update the `tsconfig.json` file with the strictest possible compiler options. In the compilerOptions section, enable the core strict settings including `"strict": true`, `"noImplicitAny": true`, `"noImplicitReturns": true`, and `"exactOptionalPropertyTypes": true`.
 
 Add advanced strictness options: `"noUncheckedIndexedAccess": true` to prevent unsafe array/object access, `"noPropertyAccessFromIndexSignature": true` to require bracket notation for index signatures, `"noUnusedLocals": true` and `"noUnusedParameters": true` to flag unused code.
 
