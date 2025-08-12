@@ -8,9 +8,9 @@ Add advanced strictness options: `"noUncheckedIndexedAccess": true` to prevent u
 
 Configure code quality settings: `"noImplicitOverride": true` for explicit class inheritance, `"allowUnusedLabels": false` and `"allowUnreachableCode": false` to catch dead code, `"noFallthroughCasesInSwitch": true` for switch statement safety, and `"isolatedModules": true` for build tool compatibility.
 
-## Automatic Error Resolution
+## Error Resolution
 
-Run TypeScript compilation to identify all errors introduced by strict settings. For each compilation error, apply the appropriate fix:
+Run TypeScript compilation to identify all errors introduced by strict settings. If any typecheck errors are found, fix them systematically. For each compilation error, apply the appropriate fix:
 
 For implicit any errors, add explicit type annotations to function parameters, variables, and return types. Analyze the usage context to determine the correct type.
 
