@@ -1,0 +1,13 @@
+id: strict-typescript-config
+category: code-quality
+summary: Configure TypeScript with strictest compiler options to catch errors early and enforce best practices.
+level: project-only
+
+ecosystems: []
+
+provides:
+  - strict-typescript-config.configured
+
+requires:
+  - key: project.language
+    equals: typescript
