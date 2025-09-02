@@ -14,7 +14,7 @@ Add alias configuration to `webpack.config.js`. In the resolve section, add an a
 
 ## Update Existing Imports
 
-Find and replace all relative imports that navigate up from the source directory with the new alias. Use this command to find TypeScript files: `find . -name "*.ts" -o -name "*.tsx" | xargs grep -l "\.\./.*" | grep -E "src/"`
+Find and replace all relative imports that navigate up from the source directory with the new alias. Search through TypeScript files for imports containing `../` patterns that reference files outside the current directory structure. 
 
 For each file found, replace imports that reference files outside the current directory structure with the alias. Convert patterns like `../../../components/Component` to `~/components/Component`. Focus on replacing imports that use `../` to navigate up to the source root level.
 

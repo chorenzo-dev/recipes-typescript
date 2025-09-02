@@ -26,4 +26,4 @@ Configure a top-level path alias (~) to enable clean imports from the project's 
 
 ## Expected Output
 
-- typescript-path-alias.configured: Whether the ~ path alias has been successfully set up
+This recipe relies on the automatic `typescript-path-alias.applied` field to indicate successful configuration.
