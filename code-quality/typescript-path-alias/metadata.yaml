@@ -3,8 +3,9 @@ category: code-quality
 summary: Adds a top level path alias (~) to allow imports from the source's root
 level: project-only
 
-provides:
-  - typescript-path-alias.configured
+ecosystems: []
+
+provides: []
 
 requires:
   - key: project.language

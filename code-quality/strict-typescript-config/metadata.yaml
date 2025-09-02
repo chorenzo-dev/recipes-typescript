@@ -5,8 +5,7 @@ level: project-only
 
 ecosystems: []
 
-provides:
-  - strict-typescript-config.configured
+provides: []
 
 requires:
   - key: project.language

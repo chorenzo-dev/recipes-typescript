@@ -14,12 +14,11 @@ Configure TypeScript with the strictest compiler options to catch errors early a
    - Check if any build tools or frameworks override TypeScript settings
    - Identify source directories and file patterns covered by TypeScript
 
-3. **Assess compatibility requirements**
-   - Check if the project uses React, Node.js, or other frameworks
-   - Identify any legacy code that might need gradual migration
-   - Review existing type definitions and declaration files
+3. **Assess project requirements**
+   - Identify the project's framework and structure
+   - Note any existing type-related code patterns
+   - Check for potential compatibility considerations
 
 ## Expected Output
 
-- strict-typescript-config.configured: Boolean indicating if strict TypeScript configuration is applied
-- strict-typescript-config.options_enabled: String listing which strict options were enabled
+This recipe relies on the automatic `strict-typescript-config.applied` field to indicate successful configuration.
